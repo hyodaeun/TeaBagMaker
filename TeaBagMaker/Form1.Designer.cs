@@ -75,6 +75,7 @@
             this.lblResult.Size = new System.Drawing.Size(69, 12);
             this.lblResult.TabIndex = 3;
             this.lblResult.Text = "남은 시간 : ";
+            this.lblResult.UseWaitCursor = true;
             // 
             // Timer
             // 
@@ -93,7 +94,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "차 종류를 선택하세요";
+            this.Text = "차 종류 선택하세요";
             this.UseWaitCursor = true;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
