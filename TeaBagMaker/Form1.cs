@@ -92,7 +92,7 @@ namespace TeaBagMaker
             }
             else
             {
-                MessageBox.Show("숫자를 입력하세요~", "알림",
+                MessageBox.Show("숫자 입력하세요~", "알림",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
